@@ -34,7 +34,7 @@ deploy:
     email: peterc@aetheric.co.nz
     skip_cleanup: true
     api_key:
-        secure: ???
+        secure: GOXdlAAtQitKXNQmG6y+ngKbJoPvtRY0nvYNXZDYBCpZu3d2x41x2E57py+by4VydGMfp8fws+rfpkpRw4wfplOZWsWNKqfbfXuHgjIY/VcfiaGneMZCIumzkMXoqASjIA0a34XS1+eI11MRVmQWzR5tRg/S2kGeNnKPLjgdbsJV6Q6oxuA1f3YeTS89HvtaDsO7QBv8RrQ0la4Id0MWW0wWy75B7oy/ZkCJRM8T0ZcsNhNmQH6yHERKdbzGm1ZFcGTU2c++NPIgNEIMQissgC4q/ViV8fqRmWq1L9+VuQNBfrlVn4H22ZxKCB2vXa8mNugaXvmVHPQgKb0vWk7Gss/Ar3PnnlGFD54vL4hKaCVRGrEkFR1krIaGPWlxGZf6Jx0OM1L70aRsZ7pOVnPtgCwhVnluxa/uJeqgTEWiI7Q550VmveI6iiFL/3DGQxhX2FMlucoNsx+VUMEgaN/Ebo3DkUZC5JDmHpZiNkPVtpVq5kZedFlapasapwWnfOg32AnsUoPo19mHD/Dm3XFBbnZhoZK08txjZniQ9UhWxZ2kmMIHj3fAXch+edt7pLi/naj1MgE7K8bbRAgVPjkWi6hzd6v3SXBWX0XG5RMf51E6UrbbTxuPxTUGUfAHfwIN9wIz6fiPHbyAouBiW+DF75QQYi3NhsMOnxST+Va6R80=
     on:
         repo: aetheric/shiva-contacts
         branch: master
