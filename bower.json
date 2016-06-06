@@ -1,0 +1,7 @@
+{
+  "name": "shiva-content",
+  "private": true,
+  "dependencies": {
+    "angular-visjs": "~4.0.2"
+  }
+}
