@@ -1,22 +1,13 @@
 {
-  "name": "shiva-contacts",
-  "description": "A semantic contact management tool.",
-  "main": "index.js",
-  "scripts": {
-    "build": "gulp build",
-    "test": "gulp test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/aetheric/shiva-contacts.git"
-  },
-  "keywords": [
-    "contacts"
-  ],
-  "author": "Peter Cummuskey <peterc@aetheric.co.nz>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/aetheric/shiva-contacts/issues"
-  },
-  "homepage": "https://github.com/aetheric/shiva-contacts#readme"
+	"name": "shiva-contacts",
+	"private": true,
+	"main": "index.js",
+	"scripts": {
+		"build": "gulp build",
+		"test": "gulp test"
+	},
+	"engines": {
+		"node": "6.1.x",
+		"npm": "3.8.x"
+	}
 }

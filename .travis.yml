@@ -1,0 +1,40 @@
+language: node_js
+
+node_js:
+    - '6.1.x'
+
+env:
+    - CXX=g++-4.8
+
+addons:
+    apt:
+
+        sources:
+            - ubuntu-toolchain-r-test
+
+        packages:
+            - g++-4.8
+
+before_install:
+    - npm install -g npm@3.8.x
+
+after_install:
+    - npm config set tag-version-prefix "" --global
+    - npm config set tag-version-prefix ""
+
+before_script:
+    - npm version `git describe --tags` --no-git-tag
+    - cat package.json | grep version
+
+before_deploy:
+    - rm -rf src/test
+
+deploy:
+    provider: heroku
+    email: peterc@aetheric.co.nz
+    skip_cleanup: true
+    api_key:
+        secure: ???
+    on:
+        repo: aetheric/shiva-contacts
+        branch: master
